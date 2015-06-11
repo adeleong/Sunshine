@@ -170,7 +170,7 @@ public class TestDb extends AndroidTestCase {
         assertFalse( "Error: More than one record returned from weather query",
                 weatherCursor.moveToNext() );
 
-        // Sixth Step: Close cursor and database
+        // Sixth Step: Close cursor and database_
         weatherCursor.close();
         dbHelper.close();
     }
